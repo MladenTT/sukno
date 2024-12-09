@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import logo from './logo111.png';
+import logo from './newlogo.png';
 import user from './user1.png';
 import bag from './bag.png';
 import heart from './heart.png';

@@ -13,8 +13,8 @@
     padding-left: 2px;
 }
 .topbar-container{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -40,7 +40,8 @@
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-    margin-left: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .header-extras{
     display: flex;
@@ -57,22 +58,23 @@
 
 .input-s{
     width: 700px;
+    height: 40px;
 }
 
 .search-submit{
     background-color: black;
     color: #fcfcfc;
     width: 80px;
-    height: 30px;
+    height: 40px;
     border: none;
 }
 #component-container{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .logo{
     height: 70px;
-    width: 240px;
+    width: 260px;
 }
