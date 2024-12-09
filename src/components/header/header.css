@@ -40,6 +40,7 @@
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+    margin-left: 150px;
 }
 .header-extras{
     display: flex;
@@ -52,4 +53,26 @@
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+}
+
+.input-s{
+    width: 700px;
+}
+
+.search-submit{
+    background-color: black;
+    color: #fcfcfc;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+#component-container{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
 }

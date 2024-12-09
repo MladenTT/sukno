@@ -36,7 +36,7 @@ function Header() {
                                 <div className="d-logo">
                                     <div className="logo">
                                         <a href="">
-                                            <img src={logo} alt="logo" />
+                                            <img src={logo} alt="logo" className="logo"/>
                                         </a>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@ function Header() {
                                     <form action="??" method="get">
                                         <div className="search-content">
                                             <div className="search-wrapper">
-                                                <input type="text" name="s" id="s" />
+                                                <input type="text" name="s" id="s" className="input-s" placeholder="Treba mi..." />
                                                 <input type="hidden" name="post-type" />
                                                 <div className="search-result">
                                                    
