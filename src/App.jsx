@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="app-div">
+    <div className="app-div">
       <Header/>
       <Home/>
       <Footer/>
