@@ -33,6 +33,7 @@
 
 .product-extras li{
     display: inline;
+    padding-left: 30px;
 }
 
 .header-row{
@@ -57,7 +58,7 @@
 }
 
 .input-s{
-    width: 700px;
+    width: 800px;
     height: 40px;
 }
 
