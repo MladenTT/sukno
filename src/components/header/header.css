@@ -5,11 +5,11 @@ body{
     background-color: #fcb800;
 }
 .topbar{
-    background-color: #2d2d2d;
-}
-#topbar{
+    display: flex;
     color: #fcfcfc;
     width: 100%;
+    background-color: #2d2d2d;
+    justify-content: space-between;
 }
 #topbar a{
     color: #fcfcfc;
@@ -17,7 +17,7 @@ body{
     padding-left: 2px;
 }
 #topbar p{
-    display: inline-block;
+    display: flex;
     color: #fcfcfc;
     text-decoration: none;
     padding-left: 2px;
@@ -137,9 +137,23 @@ body{
     body{
         width: 100%;
     }
-    .topbar-container{
-        margin: 0px;
+    .topbar{
+        flex-direction: column;
+        text-align: center;
     }
+    #topbar p {
+        display: block;
+    }
+
+    #topbar-left{
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .topbar-right{
+
+    }
+
     .header-row{
         flex-direction: column;
         margin-right: 0px;

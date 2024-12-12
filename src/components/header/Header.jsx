@@ -9,24 +9,14 @@ function Header() {
     return(
           <div className="header-main">
             <div id="topbar" className="topbar">
-                <div id="topbar-container" className="topbar-container">
                     <div id="topbar-left">
-                        <div id="textholder-left">
-                            <div>
-                                <p>Sukno e-mail |</p> 
-                                <a href="mailto:sukno.novisad@gmail.com">sukno.novisad@gmail.com</a>
-                            </div>
-                        </div>
+                        <p>Sukno e-mail |</p> 
+                        <a href="mailto:sukno.novisad@gmail.com">sukno.novisad@gmail.com</a>
                     </div>
                     <div id="topbar-right">
-                        <div id="textholder-rihgt">
-                            <div>
-                                <p>Korisnicka podrska |</p>   
-                                <a href="mailto:mladen94trivunovic@gmail.com">mladen94trivunovic@gmail.com</a>
-                            </div>
-                        </div>
+                        <p>Korisnicka podrska |</p>   
+                        <a href="mailto:mladen94trivunovic@gmail.com">mladen94trivunovic@gmail.com</a>
                     </div>
-                </div>
             </div>
                 <div id="header-main">
                     <div id="component-container">
