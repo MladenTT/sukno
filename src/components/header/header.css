@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 .header-main{
     background-color: #fcb800;
 }
@@ -131,6 +134,12 @@
 
 
 @media(max-width: 1000px){
+    body{
+        width: 100%;
+    }
+    .topbar-container{
+        margin: 0px;
+    }
     .header-row{
         flex-direction: column;
         margin-right: 0px;
