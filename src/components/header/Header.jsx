@@ -13,7 +13,7 @@ function Header() {
                     <div id="topbar-left">
                         <div id="textholder-left">
                             <div>
-                                Sukno Shopping Centar Online | 
+                                <p>Sukno e-mail |</p> 
                                 <a href="mailto:sukno.novisad@gmail.com">sukno.novisad@gmail.com</a>
                             </div>
                         </div>
@@ -21,7 +21,7 @@ function Header() {
                     <div id="topbar-right">
                         <div id="textholder-rihgt">
                             <div>
-                                Korisnicka podrska | 
+                                <p>Korisnicka podrska |</p>   
                                 <a href="mailto:mladen94trivunovic@gmail.com">mladen94trivunovic@gmail.com</a>
                             </div>
                         </div>
