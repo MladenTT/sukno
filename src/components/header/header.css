@@ -29,27 +29,57 @@
 
 .product-extras{
     list-style: none;
+    width: 100%;
+    padding: 0px;
+    align-items: center;
 }
 
 .product-extras li{
     display: inline;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.product-extra-search{
+    width: 100%;
+}
+.search-content{
+    width: 100%;
+}
+.search-content-wraper{
+    width: 100%;
+}
+.search-wraper{
+    width: 100%;
+}
+/*ovde pocinje zuti header*/
+
+.header-main{
+
 }
 
 .header-row{
     display: flex;
 	align-items: center;
-	flex-wrap: nowrap;
 	justify-content: space-between;
     margin-left: 120px;
     margin-right: 120px;
+    flex-wrap: wrap;
 }
-.header-extras{
+.header-logo{
+    display: flex;
+}
+
+.header-search{
     display: flex;
 	align-items: center;
-	flex-wrap: nowrap;
 	justify-content: space-between;
 }
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .search-content{
     display: flex;
 	align-items: center;
@@ -58,7 +88,7 @@
 }
 
 .input-s{
-    width: 800px;
+    width: 100%px;
     height: 40px;
 }
 
@@ -73,6 +103,7 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .logo{

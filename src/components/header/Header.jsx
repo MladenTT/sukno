@@ -28,20 +28,17 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div id="headrt-main-wraper">
                 <div id="header-main">
                     <div id="component-container">
                         <div className="header-row">
                             <div className="header-logo col-md-3 col-sm-3">
-                                <div className="d-logo">
-                                    <div className="logo">
+                                    <div className="logo col-md-3 col-sm-3">
                                         <a href="">
                                             <img src={logo} alt="logo" className="logo"/>
                                         </a>
                                     </div>
-                                </div>
                             </div>
-                            <div className="header-extras col-md-9 col-sm-9">
+                            <div className="header-search col-md-6 col-sm-6">
                                 <div className="product-extra-search">
                                     <form action="??" method="get">
                                         <div className="search-content">
@@ -58,31 +55,33 @@ function Header() {
                                         </div>
                                     </form>
                                 </div>
+                                
+                            </div>
+                            <div className="header-icons col-md-3 col-sm-3">
                                 <ul className="product-extras">
-                                    <li>
-                                        <a href="">
-                                            <img src={heart} alt="favorite" className="icons"/>
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <img src={bag} alt="in the cart" className="icons"/>
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <img src={user} alt="user settings" className="icons"/>
-                                            
-                                        </a>
-                                    </li>
-                                </ul>
+                                        <li>
+                                            <a href="">
+                                                <img src={heart} alt="favorite" className="icons"/>
+                                                
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src={bag} alt="in the cart" className="icons"/>
+                                                
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src={user} alt="user settings" className="icons"/>
+                                                
+                                            </a>
+                                        </li>
+                                    </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
           </div>
     );
     
