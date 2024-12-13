@@ -14,7 +14,7 @@ function Header() {
                         <a href="mailto:sukno.novisad@gmail.com">sukno.novisad@gmail.com</a>
                     </div>
                     <div id="topbar-right">
-                        <p>Korisnicka podrska |</p>   
+                        <p >Tehnicka podrska |</p>   
                         <a href="mailto:mladen94trivunovic@gmail.com">mladen94trivunovic@gmail.com</a>
                     </div>
             </div>
